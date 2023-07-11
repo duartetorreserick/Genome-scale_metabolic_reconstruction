@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
+  <model metaid="meta_model" fbc:strict="true">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" constant="true"/>
+      <compartment id="e" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="meta_M_ACP__91__c__93__" sboTerm="SBO:0000247" id="M_ACP__91__c__93__" name="a soluble [acyl-carrier protein]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="H2SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ACP__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:ACP"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ATP__91__c__93__" sboTerm="SBO:0000247" id="M_ATP__91__c__93__" name="ATP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ATP__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/56-65-5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/4574455"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC30616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:ATP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00538"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/5461108"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD__45__17686__91__c__93__" sboTerm="SBO:0000247" id="M_CPD__45__17686__91__c__93__" name="5-hexenoate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD__45__17686__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XUDOZULIAWNMIU-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:CPD-17686"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/6999915"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M__5__45__hexenoyl__45__ACPs__91__c__93__" sboTerm="SBO:0000247" id="M__5__45__hexenoyl__45__ACPs__91__c__93__" name="a 5-hexenoyl-[acp]" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10OSX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M__5__45__hexenoyl__45__ACPs__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:5-hexenoyl-ACPs"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_AMP__91__c__93__" sboTerm="SBO:0000247" id="M_AMP__91__c__93__" name="AMP" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_AMP__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/61-19-8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/10239183"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/UDMBCSSLTHHNCD-KQYNXXCUSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC456215"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:AMP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:456215"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00020"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/15938965"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_PPI__91__c__93__" sboTerm="SBO:0000247" id="M_PPI__91__c__93__" name="diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_PPI__91__c__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/2466-09-3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/996"/>
+                  <rdf:li rdf:resource="https://identifiers.org/drugbank/DB04160"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-K"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC33019"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:PPI"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29888"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00250"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00013"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/1023"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ACP__91__e__93__" sboTerm="SBO:0000247" id="M_ACP__91__e__93__" name="a soluble [acyl-carrier protein]" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="H2SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ACP__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:ACP"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ATP__91__e__93__" sboTerm="SBO:0000247" id="M_ATP__91__e__93__" name="ATP" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ATP__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/56-65-5"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/4574455"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC30616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:ATP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00538"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/5461108"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD__45__17686__91__e__93__" sboTerm="SBO:0000247" id="M_CPD__45__17686__91__e__93__" name="5-hexenoate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD__45__17686__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XUDOZULIAWNMIU-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:CPD-17686"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/6999915"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M__5__45__hexenoyl__45__ACPs__91__e__93__" sboTerm="SBO:0000247" id="M__5__45__hexenoyl__45__ACPs__91__e__93__" name="a 5-hexenoyl-[acp]" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10OSX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M__5__45__hexenoyl__45__ACPs__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:5-hexenoyl-ACPs"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_AMP__91__e__93__" sboTerm="SBO:0000247" id="M_AMP__91__e__93__" name="AMP" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_AMP__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/61-19-8"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/10239183"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/UDMBCSSLTHHNCD-KQYNXXCUSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC456215"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:AMP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:456215"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00045"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00020"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/15938965"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_PPI__91__e__93__" sboTerm="SBO:0000247" id="M_PPI__91__e__93__" name="diphosphate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_PPI__91__e__93__">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/cas/2466-09-3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chemspider/996"/>
+                  <rdf:li rdf:resource="https://identifiers.org/drugbank/DB04160"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XPPKVPWEQAFLFU-UHFFFAOYSA-K"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metabolights/MTBLC33019"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:PPI"/>
+                  <rdf:li rdf:resource="https://identifiers.org/chebi/CHEBI:29888"/>
+                  <rdf:li rdf:resource="https://identifiers.org/hmdb/HMDB00250"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00013"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/1023"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction metaid="meta_R_RXN__45__16463" id="R_RXN__45__16463" name="RXN-16463" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN__45__16463">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/COMMONBEAN:RXN-16463"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.47"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_ACP__91__c__93__" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ATP__91__c__93__" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CPD__45__17686__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M__5__45__hexenoyl__45__ACPs__91__c__93__" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_AMP__91__c__93__" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_PPI__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_PHVUL__46__009G058300"/>
+            <fbc:geneProductRef fbc:geneProduct="G_PHVUL__46__011G056700"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_EX_ACP__91__e__93__" sboTerm="SBO:0000627" id="R_EX_ACP__91__e__93__" name="a soluble [acyl-carrier protein] exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ACP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_ATP__91__e__93__" sboTerm="SBO:0000627" id="R_EX_ATP__91__e__93__" name="ATP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ATP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_CPD__45__17686__91__e__93__" sboTerm="SBO:0000627" id="R_EX_CPD__45__17686__91__e__93__" name="5-hexenoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_CPD__45__17686__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX__5__45__hexenoyl__45__ACPs__91__e__93__" sboTerm="SBO:0000627" id="R_EX__5__45__hexenoyl__45__ACPs__91__e__93__" name="a 5-hexenoyl-[acp] exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M__5__45__hexenoyl__45__ACPs__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_AMP__91__e__93__" sboTerm="SBO:0000627" id="R_EX_AMP__91__e__93__" name="AMP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_AMP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_EX_PPI__91__e__93__" sboTerm="SBO:0000627" id="R_EX_PPI__91__e__93__" name="diphosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_PPI__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction id="R_Trans_EX_ACP__91__e__93__" name="Transportea soluble [acyl-carrier protein] exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ACP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ACP__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Trans_EX_ATP__91__e__93__" name="TransporteATP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ATP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ATP__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Trans_EX_CPD__45__17686__91__e__93__" name="Transporte5-hexenoate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_CPD__45__17686__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD__45__17686__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Trans_EX__5__45__hexenoyl__45__ACPs__91__e__93__" name="Transportea 5-hexenoyl-[acp] exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M__5__45__hexenoyl__45__ACPs__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M__5__45__hexenoyl__45__ACPs__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Trans_EX_AMP__91__e__93__" name="TransporteAMP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_AMP__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_AMP__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Trans_EX_PPI__91__e__93__" name="Transportediphosphate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_PPI__91__e__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_PPI__91__c__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfObjectives fbc:activeObjective="obj">
+      <fbc:objective fbc:id="obj" fbc:type="maximize"/>
+    </fbc:listOfObjectives>
+    <fbc:listOfGeneProducts>
+      <fbc:geneProduct metaid="meta_G_PHVUL__46__011G056700" sboTerm="SBO:0000243" fbc:id="G_PHVUL__46__011G056700" fbc:name="Phvul.011G056700" fbc:label="G_PHVUL__46__011G056700"/>
+      <fbc:geneProduct metaid="meta_G_PHVUL__46__009G058300" sboTerm="SBO:0000243" fbc:id="G_PHVUL__46__009G058300" fbc:name="Phvul.009G058300" fbc:label="G_PHVUL__46__009G058300"/>
+    </fbc:listOfGeneProducts>
+  </model>
+</sbml>
